@@ -1,0 +1,6 @@
+#Sun, 08 Jul 2018 15:51:45 -0500
+
+info.app.version=0.1
+info.app.name=unassigned-pc-inventory
+grails.env=production
+info.app.grailsVersion=3.3.6
