@@ -1,5 +1,7 @@
 package pcinventory
 
+import javax.transaction.Status
+
 @SuppressWarnings('GrailsDomainReservedSqlKeywordName')
 class Computer {
 
@@ -13,5 +15,6 @@ class Computer {
 
 
     static constraints = {
+        status inList: ['Pending Wipe', 'Wiped', 'Prepped']
     }
 }
